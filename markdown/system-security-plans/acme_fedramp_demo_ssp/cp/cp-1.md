@@ -61,7 +61,7 @@ The organization:
 
 - \[b.\] Reviews and updates the current:
 
-  - \[1.\] Contingency planning policy [organization-defined frequency]; and
+  - \[1.\] Contingency planning policy [test]; and
   - \[2.\] Contingency planning procedures [organization-defined frequency].
 
 ## Control Objective
