@@ -42,6 +42,10 @@ x-trestle-global:
     title: FedRAMP Rev 4 Moderate Baseline
     href: trestle://profiles/fedramp_rev4_moderate/profile.json
   sort-id: ac-02.04
+x-trestle-comp-def-rules:
+  Hello World:
+    - name: test-rule
+      description: This is a rule used for testing compliance workflows
 ---
 
 # ac-2.4 - \[Access Control\] Automated Audit Actions
