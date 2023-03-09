@@ -17,7 +17,7 @@ x-trestle-set-params:
   cp-1_prm_1:
     values:
   cp-1_prm_2:
-    profile-values:
+    profile-values: test
     values:
   cp-1_prm_3:
     profile-values:
@@ -40,7 +40,7 @@ x-trestle-add-props:
     ns: https://fedramp.gov/ns/oscal
     smt-part: cp-1
   - name: response-point
-    value: You must fill in this response point.
+    value: response
     ns: https://fedramp.gov/ns/oscal
     smt-part: cp-1.a.1_obj.1
   - name: method
