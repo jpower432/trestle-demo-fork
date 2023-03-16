@@ -23,6 +23,10 @@ WORKDIR /demo
 
 RUN ./automation/lib/install.sh install_demo_utils
 
+ENV PERSONA="control-issuer"
+
+ENTRYPOINT [ "./automation/lib/launch-recording.sh" ]
+
 
 
 

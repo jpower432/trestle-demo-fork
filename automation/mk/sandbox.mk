@@ -13,19 +13,36 @@ demo-build:
 .PHONY: demo-build
 
 ############################################################################
-### Run demo (This is WIP)
+### Create demo for control issuer persona
 ############################################################################
-demo-run:
-	${CMD} run localhost:5000/trestle-demo:latest
-.PHONY: demo-run
+control-issuer-run:
+	${CMD} run -v ./docs/recordings:/demo/output -v ./automation/lib:/demo/automation/lib localhost:5000/trestle-demo:latest
+.PHONY: control-issuer-run
+
+############################################################################
+### Create demo for control owner persona
+############################################################################
+control-owner-run:
+	${CMD} run -v ./docs/recordings:/demo/output -v ./automation/lib:/demo/automation/lib -e "PERSONA=control-owner" localhost:5000/trestle-demo:latest
+.PHONY: control-owner-run
+
+############################################################################
+### Create demo for control provider persona
+############################################################################
+control-provider-run:
+	${CMD} run -v ./docs/recordings:/demo/output -v ./automation/lib:/demo/automation/lib -e "PERSONA=control-provider" localhost:5000/trestle-demo:latest
+.PHONY: control-provider-run
 
 ############################################################################
 ### Run the sandbox container
 ############################################################################
 sandbox-run:
-	${CMD} run -it --rm --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
+	${CMD} run -it --rm --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ./docs/recordings:/demo/output -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
 .PHONY: sandbox-run
 
+############################################################################
+### Install trestle locally
+############################################################################
 trestle-install:
 	@source ./automation/lib/dependencies.sh && install_trestle
 .PHONY: trestle-install

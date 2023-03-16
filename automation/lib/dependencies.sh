@@ -40,6 +40,13 @@ install_trestle_fedramp () {
     python3 -m pip install compliance-trestle-fedramp
 }
 
+install_gh_cli () {
+  run_log 0 "Starting GitHub CLI install"
+  dnf install 'dnf-command(config-manager)'
+  dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+  dnf install -y gh
+}
+
 install_gcr () {
     run_log 0 "Starting go-containerregistry install"
     GOBIN=$BIN_DIR go install github.com/google/go-containerregistry/cmd/registry@latest
