@@ -4,6 +4,7 @@
 # Add any setup tasks for the recording here. 
 
 source ./automation/lib/demo-magic.sh
+source ./automation/lib/demo-utils.sh
 
 export PATH=$PATH:$PWD/demo-bin
 
@@ -31,7 +32,7 @@ export PATH=$PATH:$PWD/demo-bin
 
 # Intro
 
-function demoIntro(){
+function demoIntro() {
   clear
   DEMO_PROMPT=""
   PROMPT_TIMEOUT=1
@@ -43,6 +44,39 @@ function demoIntro(){
   p "4. Review and merge"
 
   p "Let's get started!\n"
+
+  clear
+}
+
+function edit() {
+  DEMO_PROMPT="$ "
+  PROMPT_TIMEOUT=2
+  pei "git checkout -b feat/adds-cc-3"
+  wait
+  DEMO_PROMPT="$ "
+  PROMPT_TIMEOUT=2
+  pei "cat << EOF > ./markdown/catalogs/ACME_custom_controls/cc/cc-3.md
+# cc-3 - \[Custom Controls\] Test reporting
+
+## Control Statement
+
+All services must run my test.
+EOF"
+  wait
+  DEMO_PROMPT="$ "
+  PROMPT_TIMEOUT=2
+  pei "make assemble-catalogs"
+  wait
+  DEMO_PROMPT="$ "
+  PROMPT_TIMEOUT=2
+  pei "git add markdown/ catalogs/"
+  wait
+  pei "git commit -m \"feat: adds-cc-3\""
+  wait
+  pei "git push -u origin feat/adds-cc-3"
+  wait
+  pei "gh pr create -t \"feat/adds-cc-3\" -b \"Adds cc-3 to ACME custom catalog\" -B \"main\" -H \"feat/adds-cc-3\""
+  wait
 
   clear
 }
@@ -61,7 +95,17 @@ function endDemo(){
 demoIntro
 DEMO_PROMPT=""
 PROMPT_TIMEOUT=3
-
+git config --global user.name "$GIT_NAME"
+git config --global user.email "$GIT_EMAIL"
+login /run/secrets/pat
+clone "$GIT_REPO"
+accessContainer
+edit
+review
+sleep 30
+getPR
+reviewReady "$PR"
+review "$PR"
 
 # End
 endDemo

@@ -16,7 +16,7 @@ demo-build:
 ### Create demo for control issuer persona
 ############################################################################
 control-issuer-run:
-	${CMD} run -v ./docs/recordings:/demo/output -v ./automation/lib:/demo/automation/lib localhost:5000/trestle-demo:latest
+	${CMD} run -v ./docs/recordings:/demo/output -v ./automation/lib:/demo/automation/lib --secret pat --env-file ~/.env localhost:5000/trestle-demo:latest
 .PHONY: control-issuer-run
 
 ############################################################################
