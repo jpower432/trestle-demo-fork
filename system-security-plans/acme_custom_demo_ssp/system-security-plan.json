@@ -3,7 +3,7 @@
     "uuid": "4857e0ae-937f-43db-973b-03c54e625a88",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-03-20T22:57:09.268282+00:00",
+      "last-modified": "2023-03-30T19:41:18.157988+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.2"
     },
@@ -78,7 +78,7 @@
               "uuid": "8fdecbaa-8b99-4f96-ab34-36c1e82ed048",
               "description": "",
               "implementation-status": {
-                "state": "planned"
+                "state": "implemented"
               }
             }
           ]

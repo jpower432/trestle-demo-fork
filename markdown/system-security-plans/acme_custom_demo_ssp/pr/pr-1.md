@@ -1,8 +1,4 @@
 ---
-x-trestle-comp-def-rules:
-  This System:
-    - name: Test-rule_001
-      description: Ensure all of the services are running this test
 x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
