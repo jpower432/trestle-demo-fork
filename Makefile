@@ -148,3 +148,21 @@ assemble-ssps: assemble-fedramp-ssp assemble-custom-ssp
 sanity-ssps: assemble-ssps
 	@git diff --exit-code
 .PHONY: sanity-ssps
+
+#######################################################
+## Reports
+#####
+
+TEMPLATE := "vendor/templates/ssp_gap_analysis_template.md.jinja"
+
+generate-gap-report:
+	$(call gap-report,acme_fedramp_demo_ssp,fedramp_rev4_moderate,$(TEMPLATE))
+.PHONY: generate-gap-report
+
+generate-customer-report:
+	$(call customer-report,acme_fedramp_demo_ssp,fedramp_rev4_moderate,$(TEMPLATE))
+.PHONY: generate-customer-report
+
+generate-auditing-report:
+	$(call auditing-report,acme_fedramp_demo_ssp,fedramp_rev4_moderate,$(TEMPLATE))
+.PHONY: generate-auditing-report
