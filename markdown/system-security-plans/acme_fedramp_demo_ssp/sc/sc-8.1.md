@@ -50,7 +50,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system implements cryptographic mechanisms to [prevent unauthorized disclosure of information; detect changes to information] during transmission unless otherwise protected by [organization-defined alternative physical safeguards].
+The information system implements cryptographic mechanisms to [Selection (one or more): prevent unauthorized disclosure of information; detect changes to information] during transmission unless otherwise protected by [organization-defined alternative physical safeguards].
 
 ## Control Objective
 

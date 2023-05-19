@@ -52,7 +52,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics;  [organization-defined design/implementation information] ] at [organization-defined level of detail].
+The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics;  [organization-defined design/implementation information] ] at [organization-defined level of detail].
 
 ## Control Objective
 

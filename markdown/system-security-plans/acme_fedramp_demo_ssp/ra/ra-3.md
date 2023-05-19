@@ -60,7 +60,7 @@ The organization:
 
 - \[a.\] Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;
 
-- \[b.\] Documents risk assessment results in [security plan; risk assessment report; [organization-defined document]];
+- \[b.\] Documents risk assessment results in [Selection: security plan; risk assessment report; [organization-defined document]];
 
 - \[c.\] Reviews risk assessment results [organization-defined frequency];
 

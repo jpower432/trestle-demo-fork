@@ -60,7 +60,7 @@ The information system:
 
 - \[a.\] Enforces a limit of [organization-defined number] consecutive invalid logon attempts by a user during a [organization-defined time period]; and
 
-- \[b.\] Automatically [locks the account/node for an [organization-defined time period]; locks the account/node until released by an administrator; delays next logon prompt according to [organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded.
+- \[b.\] Automatically [Selection: locks the account/node for an [organization-defined time period]; locks the account/node until released by an administrator; delays next logon prompt according to [organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded.
 
 ## Control Objective
 

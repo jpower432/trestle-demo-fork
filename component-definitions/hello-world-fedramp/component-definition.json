@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "d1f7608c-4761-4a9c-a3f5-1e700b342db2",
+    "uuid": "a63d8680-6879-48f0-8af7-67963ccf9c10",
     "metadata": {
       "title": "Hello World FedRAMP Component Definition",
-      "last-modified": "2023-05-04T00:37:27.100876+00:00",
+      "last-modified": "2023-05-19T09:49:07.179479-04:00",
       "version": "1.0.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "3938b65c-c49c-4993-9722-0dcbd9afc9c2",
+        "uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
         "type": "service",
         "title": "Hello World",
         "description": "Hello World Application",
@@ -23,25 +23,281 @@
           {
             "name": "Rule_Description",
             "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-            "value": "Ensure hello-world disables inactive accounts",
+            "value": "Ensure hello-world disables inactive accounts 1",
             "remarks": "rule_set_0"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_003",
+            "remarks": "rule_set_1"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 2",
+            "remarks": "rule_set_1"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_004",
+            "remarks": "rule_set_2"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 3",
+            "remarks": "rule_set_2"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_005",
+            "remarks": "rule_set_3"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 4",
+            "remarks": "rule_set_3"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_006",
+            "remarks": "rule_set_4"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 5",
+            "remarks": "rule_set_4"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_007",
+            "remarks": "rule_set_5"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 6",
+            "remarks": "rule_set_5"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_008",
+            "remarks": "rule_set_6"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 7",
+            "remarks": "rule_set_6"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_009",
+            "remarks": "rule_set_7"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 8",
+            "remarks": "rule_set_7"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_010",
+            "remarks": "rule_set_8"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure hello-world disables inactive accounts 9",
+            "remarks": "rule_set_8"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "af81622d-6b1b-416b-9964-478f8d944d87",
+            "uuid": "0a099dde-9828-4952-8014-bb0abc2eef66",
             "source": "profiles/fedramp_rev4_moderate/profile.json",
-            "description": "This is a partial implementation of the FedRAMP Moderate profile, focusing on the control enhancement AC-2 (3).",
+            "description": "This is a partial implementation of the FedRAMP Moderate profile.",
             "implemented-requirements": [
               {
-                "uuid": "a68222a4-90d8-4b68-817c-406b81df4d9f",
-                "control-id": "ac-2.3",
+                "uuid": "4b57f192-67b3-4c63-857f-408d30ee67b1",
+                "control-id": "ac-2.1",
                 "description": "",
                 "props": [
                   {
                     "name": "Rule_Id",
                     "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
                     "value": "Test-rule_002"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "not-applicable"
+                  }
+                ]
+              },
+              {
+                "uuid": "4b0db039-6fab-4944-993e-3b7dd228d979",
+                "control-id": "ac-2.2",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_003"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "alternative"
+                  }
+                ]
+              },
+              {
+                "uuid": "8ed97526-a2a4-4d6f-8245-878fa1d62f5f",
+                "control-id": "at-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_004"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "alternative"
+                  }
+                ]
+              },
+              {
+                "uuid": "f288bc76-75d6-4771-865a-7399aac240dc",
+                "control-id": "cp-2.1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_005"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "not-applicable"
+                  }
+                ]
+              },
+              {
+                "uuid": "700328bf-7524-4daf-818f-af8de263b311",
+                "control-id": "ps-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_006"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "alternative"
+                  }
+                ]
+              },
+              {
+                "uuid": "a59722c6-d844-4cc6-aff8-4dcdc41ec313",
+                "control-id": "ps-2",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_007"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "not-applicable"
+                  }
+                ]
+              },
+              {
+                "uuid": "1e736bfe-2ec9-4047-936b-10a993a2b1b1",
+                "control-id": "ra-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_008"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              },
+              {
+                "uuid": "df1e06c2-e066-4ede-adb7-ca221e131816",
+                "control-id": "ra-2",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_009"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              },
+              {
+                "uuid": "71fd4ee9-830d-44e6-85dc-14a9819b906e",
+                "control-id": "sa-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_010"
+                  },
+                  {
+                    "name": "control-origination",
+                    "value": "system-specific"
                   },
                   {
                     "name": "implementation-status",

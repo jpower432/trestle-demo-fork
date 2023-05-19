@@ -62,7 +62,7 @@ The organization:
 
 - \[b.\] Generates internal security alerts, advisories, and directives as deemed necessary;
 
-- \[c.\] Disseminates security alerts, advisories, and directives to: [[organization-defined personnel or roles]; [organization-defined elements within the organization]; [organization-defined external organizations]]; and
+- \[c.\] Disseminates security alerts, advisories, and directives to: [Selection (one or more): [organization-defined personnel or roles]; [organization-defined elements within the organization]; [organization-defined external organizations]]; and
 
 - \[d.\] Implements security directives in accordance with established time frames, or notifies the issuing organization of the degree of noncompliance.
 

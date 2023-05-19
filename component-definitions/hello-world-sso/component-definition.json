@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "639a1811-f324-4e04-a388-cd31141bfe2b",
+    "uuid": "0b4cf0c7-95bd-4cfe-a05b-271ea999e427",
     "metadata": {
       "title": "Hello World SSO Component Definition",
-      "last-modified": "2023-05-04T00:37:28.478377+00:00",
+      "last-modified": "2023-05-19T09:45:33.336973-04:00",
       "version": "1.0.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "54bd64cd-32d5-4680-86dc-1822540b7872",
+        "uuid": "ab4e5f08-59a8-4b92-8a6c-b6cdf0a1e1ac",
         "type": "service",
         "title": "Hello World SSO",
         "description": "SSO Application",
@@ -29,12 +29,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "3fc4613a-dc89-4551-a03c-94d5297869a1",
+            "uuid": "10d2543b-d4fa-4548-9b5c-4687b0587bdd",
             "source": "profiles/ACME_internal_profile/profile.json",
             "description": "This is a partial implementation of the ACME Internal profile",
             "implemented-requirements": [
               {
-                "uuid": "9eac7c04-8ead-4523-af21-cbe2c8cccec8",
+                "uuid": "b63e8c43-9cfb-4791-981e-8a269d7203d6",
                 "control-id": "ac-2.1",
                 "description": "",
                 "props": [

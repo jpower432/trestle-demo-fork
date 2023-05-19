@@ -78,7 +78,7 @@ The organization:
 
 - \[f.\] Obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations; and
 
-- \[g.\] Provides [organization-defined information system monitoring information] to [organization-defined personnel or roles] [as needed; [organization-defined frequency]].
+- \[g.\] Provides [organization-defined information system monitoring information] to [organization-defined personnel or roles] [Selection (one or more): as needed; [organization-defined frequency]].
 
 ## Control Objective
 

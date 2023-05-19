@@ -64,11 +64,11 @@ The information system:
 
 - \[a.\] Verifies the correct operation of [organization-defined security functions];
 
-- \[b.\] Performs this verification [[organization-defined system transitional states]; upon command by user with appropriate privilege; [organization-defined frequency]];
+- \[b.\] Performs this verification [Selection (one or more): [organization-defined system transitional states]; upon command by user with appropriate privilege; [organization-defined frequency]];
 
 - \[c.\] Notifies [organization-defined personnel or roles] of failed security verification tests; and
 
-- \[d.\] [shuts the information system down; restarts the information system; [organization-defined alternative action(s)]] when anomalies are discovered.
+- \[d.\] [Selection (one or more): shuts the information system down; restarts the information system; [organization-defined alternative action(s)]] when anomalies are discovered.
 
 ## Control Objective
 

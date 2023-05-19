@@ -48,7 +48,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system protects the [confidentiality; integrity] of transmitted information.
+The information system protects the [Selection (one or more): confidentiality; integrity] of transmitted information.
 
 ## Control Objective
 

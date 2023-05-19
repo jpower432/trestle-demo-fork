@@ -54,7 +54,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system performs an integrity check of [organization-defined software, firmware, and information] [at startup; at [organization-defined transitional states or security-relevant events] ;  [organization-defined frequency] ].
+The information system performs an integrity check of [organization-defined software, firmware, and information] [Selection (one or more): at startup; at [organization-defined transitional states or security-relevant events] ;  [organization-defined frequency] ].
 
 ## Control Objective
 

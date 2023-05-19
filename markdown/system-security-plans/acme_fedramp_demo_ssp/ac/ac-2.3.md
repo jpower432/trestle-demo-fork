@@ -1,8 +1,4 @@
 ---
-x-trestle-comp-def-rules:
-  Hello World:
-    - name: Test-rule_002
-      description: Ensure hello-world disables inactive accounts
 x-trestle-set-params:
   # You may set values for parameters in the assembled SSP by adding
   #
@@ -73,16 +69,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: ac-2.3 -->
-
-#### Implementation Status: planned
-
-### Hello World
-
-<!-- Add control implementation description here for control: ac-2.3 -->
-
-#### Rules:
-
-  - Test-rule_002
 
 #### Implementation Status: planned
 

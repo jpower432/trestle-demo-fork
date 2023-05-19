@@ -50,7 +50,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization updates the information system vulnerabilities scanned [ [organization-defined frequency] ; prior to a new scan; when new vulnerabilities are identified and reported].
+The organization updates the information system vulnerabilities scanned [Selection (one or more):  [organization-defined frequency] ; prior to a new scan; when new vulnerabilities are identified and reported].
 
 ## Control Objective
 

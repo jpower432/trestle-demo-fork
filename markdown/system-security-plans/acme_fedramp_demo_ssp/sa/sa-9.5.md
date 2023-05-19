@@ -52,7 +52,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization restricts the location of [information processing; information/data; information system services] to [organization-defined locations] based on [organization-defined requirements or conditions].
+The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to [organization-defined locations] based on [organization-defined requirements or conditions].
 
 ## Control Objective
 

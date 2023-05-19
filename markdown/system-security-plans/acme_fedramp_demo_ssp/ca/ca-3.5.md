@@ -50,7 +50,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization employs [allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing [organization-defined information systems] to connect to external information systems.
+The organization employs [Selection: allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing [organization-defined information systems] to connect to external information systems.
 
 ## Control Objective
 

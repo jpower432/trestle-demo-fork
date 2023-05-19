@@ -54,7 +54,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization requires that the registration process to receive [organization-defined types of and/or specific authenticators] be conducted [in person; by a trusted third party] before [organization-defined registration authority] with authorization by [organization-defined personnel or roles].
+The organization requires that the registration process to receive [organization-defined types of and/or specific authenticators] be conducted [Selection: in person; by a trusted third party] before [organization-defined registration authority] with authorization by [organization-defined personnel or roles].
 
 ## Control Objective
 

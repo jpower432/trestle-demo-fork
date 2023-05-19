@@ -16,7 +16,7 @@ x-trestle-global:
 
 ## Control Statement
 
-Support the management of system accounts using organization-defined automated mechanisms.
+Support the management of system accounts using {{ insert: param, ac-2.1_prm_1 }}.
 
 ## Control guidance
 

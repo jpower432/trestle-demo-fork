@@ -3,7 +3,7 @@
     "uuid": "eaf9bcf2-d72b-45a1-bcd2-797ba5ddf7fc",
     "metadata": {
       "title": "Hello World FedRAMP SSP",
-      "last-modified": "2023-05-04T00:35:03.106757+00:00",
+      "last-modified": "2023-05-19T09:53:29.472192-04:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
@@ -115,8 +115,104 @@
             {
               "name": "Rule_Description",
               "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-              "value": "Ensure hello-world disables inactive accounts",
+              "value": "Ensure hello-world disables inactive accounts 1",
               "remarks": "rule_set_0"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_003",
+              "remarks": "rule_set_1"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 2",
+              "remarks": "rule_set_1"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_004",
+              "remarks": "rule_set_2"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 3",
+              "remarks": "rule_set_2"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_005",
+              "remarks": "rule_set_3"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 4",
+              "remarks": "rule_set_3"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_006",
+              "remarks": "rule_set_4"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 5",
+              "remarks": "rule_set_4"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_007",
+              "remarks": "rule_set_5"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 6",
+              "remarks": "rule_set_5"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_008",
+              "remarks": "rule_set_6"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 7",
+              "remarks": "rule_set_6"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_009",
+              "remarks": "rule_set_7"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 8",
+              "remarks": "rule_set_7"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_010",
+              "remarks": "rule_set_8"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 9",
+              "remarks": "rule_set_8"
             }
           ],
           "status": {
@@ -150,14 +246,6 @@
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
               "uuid": "aba991ff-f118-422a-8eb4-580a8df2aab8",
-              "description": "",
-              "implementation-status": {
-                "state": "planned"
-              }
-            },
-            {
-              "component-uuid": "3938b65c-c49c-4993-9722-0dcbd9afc9c2",
-              "uuid": "33f9c07c-e62d-4b1d-97d2-f78a41bc23ff",
               "description": "",
               "implementation-status": {
                 "state": "planned"
@@ -252,6 +340,12 @@
         {
           "uuid": "7db27c4d-8912-4695-89bb-f8c10849d27a",
           "control-id": "ac-2.1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
@@ -259,6 +353,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "17371b5e-f3ec-4683-876d-cee03f4ed4c7",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
               }
             }
           ]
@@ -322,6 +424,12 @@
         {
           "uuid": "303d91f3-79b2-4d41-a4a1-807be2379469",
           "control-id": "ac-2.2",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
@@ -329,6 +437,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "588b6d7a-2cb8-4efd-a354-addc578775c0",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
               }
             }
           ]
@@ -798,6 +914,12 @@
         {
           "uuid": "69ae2bc7-0c0b-4d39-9de0-07eb50bbabb8",
           "control-id": "at-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
@@ -805,6 +927,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "52fef03e-3a90-404a-8fa6-6296b0a924b4",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
               }
             }
           ]
@@ -1890,6 +2020,12 @@
         {
           "uuid": "8adff981-3a74-499f-9097-d3a06374c84a",
           "control-id": "cp-2.1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
@@ -1897,6 +2033,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "c4ceaa19-13a3-4e16-8630-756fc615740d",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
               }
             }
           ]
@@ -3388,6 +3532,12 @@
         {
           "uuid": "682e3b58-bf0d-4e4a-8cc7-17bc88b60998",
           "control-id": "ps-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
@@ -3395,6 +3545,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "899b82fd-e62b-46b1-a509-54e749a3900e",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
               }
             }
           ]
@@ -3409,6 +3567,14 @@
               "description": "",
               "implementation-status": {
                 "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "e4a83e51-a9f9-4ffe-85ac-1c2637970f3c",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
               }
             }
           ]
@@ -3486,10 +3652,24 @@
         {
           "uuid": "245265f1-47bb-408d-acf9-1699fadbe78e",
           "control-id": "ra-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
               "uuid": "e41bb03a-e133-4e50-9caf-02f51f8e1e1d",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "1b52b689-22fe-4f69-bb71-6e81a7628969",
               "description": "",
               "implementation-status": {
                 "state": "planned"
@@ -3542,10 +3722,24 @@
         {
           "uuid": "b118e986-d6a0-49ed-a993-1e718bb1092f",
           "control-id": "ra-2",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
               "uuid": "15b5ddd1-ce71-490e-a294-5b1ecb4623d8",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "6d15fc83-0f0f-4978-8e85-eb5c8b3152b3",
               "description": "",
               "implementation-status": {
                 "state": "planned"
@@ -3654,10 +3848,24 @@
         {
           "uuid": "1c04a404-9638-4ec0-8df6-66499a98ed53",
           "control-id": "sa-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
           "by-components": [
             {
               "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
               "uuid": "525c24f2-3ac9-469f-8987-40d5af09c267",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            },
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "afe11948-1571-4841-bd2d-78b7c096b219",
               "description": "",
               "implementation-status": {
                 "state": "planned"

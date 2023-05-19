@@ -3,35 +3,10 @@ x-trestle-comp-def-rules:
   Hello World:
     - name: Test-rule_005
       description: Ensure hello-world disables inactive accounts 4
-x-trestle-evidence:
-  named-evidence: location
-x-trestle-dependent-on:
-  - control-id:
-    profile:
-reviewed-by:
-  - named:
-    date:
-x-trestle-fedramp-props:
-  control-origination:
-    - Service provider Corporate
-    - Service provider System Specific
-    - Service Provider Hybrid (Corporate and System Specific)
-    - Configured by Customer (Customer System Specific)
-    - Provided by Customer (Customer System Specific)
-    - Shared (Service Provider and Customer Responsibility)
-    - Inherited from pre-existing FedRAMP Authorization [Enter text here], Date of
-      Authorization
-  implementation-status:
-    - Implemented
-    - Partially implemented
-    - Planned
-    - Alternative implementation
-    - Not Applicable
-  responsible-roles:
 x-trestle-global:
   profile:
     title: FedRAMP Rev 4 Moderate Baseline
-    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+    href: profiles/fedramp_rev4_moderate/profile.json
   sort-id: cp-02.01
 ---
 
@@ -57,20 +32,12 @@ ______________________________________________________________________
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-### This System
-
-<!-- Add implementation prose for the main This System component for control: cp-2.1 -->
-
-#### Implementation Status: planned
-
-### Hello World
-
 <!-- Add control implementation description here for control: cp-2.1 -->
 
-#### Rules:
+### Rules:
 
   - Test-rule_005
 
-#### Implementation Status: not-applicable
+### Implementation Status: not-applicable
 
 ______________________________________________________________________

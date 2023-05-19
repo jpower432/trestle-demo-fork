@@ -1,4 +1,8 @@
 ---
+x-trestle-comp-def-rules:
+  Hello World:
+    - name: Test-rule_003
+      description: Ensure hello-world disables inactive accounts 2
 x-trestle-set-params:
   # You may set values for parameters in the assembled SSP by adding
   #
@@ -50,7 +54,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system automatically [removes; disables] temporary and emergency accounts after [organization-defined time period for each type of account].
+The information system automatically [Selection: removes; disables] temporary and emergency accounts after [organization-defined time period for each type of account].
 
 ## Control Objective
 
@@ -77,5 +81,15 @@ ______________________________________________________________________
 <!-- Add implementation prose for the main This System component for control: ac-2.2 -->
 
 #### Implementation Status: planned
+
+### Hello World
+
+<!-- Add control implementation description here for control: ac-2.2 -->
+
+#### Rules:
+
+  - Test-rule_003
+
+#### Implementation Status: alternative
 
 ______________________________________________________________________

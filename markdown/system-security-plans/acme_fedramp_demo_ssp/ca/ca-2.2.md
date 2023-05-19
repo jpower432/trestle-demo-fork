@@ -54,7 +54,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization includes as part of security control assessments, [organization-defined frequency], [announced; unannounced], [in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing;  [organization-defined other forms of security assessment] ].
+The organization includes as part of security control assessments, [organization-defined frequency], [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing;  [organization-defined other forms of security assessment] ].
 
 ## Control Objective
 

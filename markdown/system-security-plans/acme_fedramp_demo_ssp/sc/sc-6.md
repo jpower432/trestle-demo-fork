@@ -52,7 +52,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system protects the availability of resources by allocating [organization-defined resources] by [priority; quota; [organization-defined security safeguards]].
+The information system protects the availability of resources by allocating [organization-defined resources] by [Selection (one or more): priority; quota; [organization-defined security safeguards]].
 
 ## Control Objective
 

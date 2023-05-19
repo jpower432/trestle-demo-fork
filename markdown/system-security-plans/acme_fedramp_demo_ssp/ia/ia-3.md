@@ -50,7 +50,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system uniquely identifies and authenticates [organization-defined specific and/or types of devices] before establishing a [local; remote; network] connection.
+The information system uniquely identifies and authenticates [organization-defined specific and/or types of devices] before establishing a [Selection (one or more): local; remote; network] connection.
 
 ## Control Objective
 

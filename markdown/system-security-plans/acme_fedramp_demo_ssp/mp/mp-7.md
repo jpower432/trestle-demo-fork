@@ -54,7 +54,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The organization [restricts; prohibits] the use of [organization-defined types of information system media] on [organization-defined information systems or system components] using [organization-defined security safeguards].
+The organization [Selection: restricts; prohibits] the use of [organization-defined types of information system media] on [organization-defined information systems or system components] using [organization-defined security safeguards].
 
 ## Control Objective
 

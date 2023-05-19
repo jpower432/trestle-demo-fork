@@ -70,7 +70,7 @@ The organization:
 
 - \[f.\] Audits and reviews activities associated with configuration-controlled changes to the information system; and
 
-- \[g.\] Coordinates and provides oversight for configuration change control activities through [organization-defined configuration change control element (e.g., committee, board)] that convenes [[organization-defined frequency]; [organization-defined configuration change conditions]].
+- \[g.\] Coordinates and provides oversight for configuration change control activities through [organization-defined configuration change control element (e.g., committee, board)] that convenes [Selection (one or more): [organization-defined frequency]; [organization-defined configuration change conditions]].
 
 ## Control Objective
 

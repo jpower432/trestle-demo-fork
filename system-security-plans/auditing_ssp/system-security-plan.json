@@ -1,0 +1,353 @@
+{
+  "system-security-plan": {
+    "uuid": "eaf9bcf2-d72b-45a1-bcd2-797ba5ddf7fc",
+    "metadata": {
+      "title": "Hello World FedRAMP SSP",
+      "last-modified": "2023-05-19T09:53:42.601027-04:00",
+      "version": "1.0.0",
+      "oscal-version": "1.0.2"
+    },
+    "import-profile": {
+      "href": "trestle://profiles/fedramp_rev4_moderate/profile.json"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": "REPLACE_ME"
+        }
+      ],
+      "system-name": "Hello World",
+      "description": "Hello World is a test application used to demonstrate OSCAL content management",
+      "security-sensitivity-level": "test-information",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "Test Information",
+            "description": "Information about tests",
+            "confidentiality-impact": {
+              "base": "test-information"
+            },
+            "integrity-impact": {
+              "base": "test-information"
+            },
+            "availability-impact": {
+              "base": "test-information"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "test-information",
+        "security-objective-integrity": "test-information",
+        "security-objective-availability": "test-information"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "A holistic, top-level explanation of the FedRAMP authorization boundary.",
+        "diagrams": [
+          {
+            "uuid": "dbf46c27-52a9-49c4-beb6-b6399cd75497",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#d2eb3c18-6754-4e3a-a933-03d289e3fad5",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Authorization Boundary Diagram"
+          }
+        ]
+      },
+      "network-architecture": {
+        "description": "A holistic, top-level explanation of the network architecture.",
+        "diagrams": [
+          {
+            "uuid": "e97c3395-433a-48c1-8cc7-dd1e1555941c",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#61081e81-850b-43c1-bf43-1ecbddcb9e7f",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Network Diagram"
+          }
+        ]
+      },
+      "data-flow": {
+        "description": "A holistic, top-level explanation of the system's data flows.",
+        "diagrams": [
+          {
+            "uuid": "e3b98448-4219-46a5-b229-412423c566f3",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#ac5d7535-f3b8-45d3-bf3b-735c82c64547",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Data Flow Diagram"
+          }
+        ]
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "e5c041f9-125c-486b-bca5-69c1b5fe42ba"
+        }
+      ],
+      "components": [
+        {
+          "uuid": "50ea602f-69e2-436d-87b8-69bec47c8478",
+          "type": "service",
+          "title": "Hello World",
+          "description": "Hello World Application",
+          "props": [
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_002",
+              "remarks": "rule_set_0"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 1",
+              "remarks": "rule_set_0"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_003",
+              "remarks": "rule_set_1"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 2",
+              "remarks": "rule_set_1"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_004",
+              "remarks": "rule_set_2"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 3",
+              "remarks": "rule_set_2"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_005",
+              "remarks": "rule_set_3"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 4",
+              "remarks": "rule_set_3"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_006",
+              "remarks": "rule_set_4"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 5",
+              "remarks": "rule_set_4"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_007",
+              "remarks": "rule_set_5"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 6",
+              "remarks": "rule_set_5"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_008",
+              "remarks": "rule_set_6"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 7",
+              "remarks": "rule_set_6"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_009",
+              "remarks": "rule_set_7"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 8",
+              "remarks": "rule_set_7"
+            },
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Test-rule_010",
+              "remarks": "rule_set_8"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "Ensure hello-world disables inactive accounts 9",
+              "remarks": "rule_set_8"
+            }
+          ],
+          "status": {
+            "state": "operational"
+          }
+        },
+        {
+          "uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
+          "type": "this-system",
+          "title": "This System",
+          "description": "",
+          "status": {
+            "state": "operational"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "This is the control implementation for the system.",
+      "implemented-requirements": [
+        {
+          "uuid": "7db27c4d-8912-4695-89bb-f8c10849d27a",
+          "control-id": "ac-2.1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "17371b5e-f3ec-4683-876d-cee03f4ed4c7",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "303d91f3-79b2-4d41-a4a1-807be2379469",
+          "control-id": "ac-2.2",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "588b6d7a-2cb8-4efd-a354-addc578775c0",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "69ae2bc7-0c0b-4d39-9de0-07eb50bbabb8",
+          "control-id": "at-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "52fef03e-3a90-404a-8fa6-6296b0a924b4",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "8adff981-3a74-499f-9097-d3a06374c84a",
+          "control-id": "cp-2.1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "c4ceaa19-13a3-4e16-8630-756fc615740d",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "682e3b58-bf0d-4e4a-8cc7-17bc88b60998",
+          "control-id": "ps-1",
+          "props": [
+            {
+              "name": "control-origination",
+              "value": "system-specific"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "899b82fd-e62b-46b1-a509-54e749a3900e",
+              "description": "",
+              "implementation-status": {
+                "state": "alternative"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "868b121d-eaa8-4f82-ba99-aaf3a1bea00c",
+          "control-id": "ps-2",
+          "by-components": [
+            {
+              "component-uuid": "30fca755-9ca2-495b-a163-dc340cdfcf31",
+              "uuid": "e4a83e51-a9f9-4ffe-85ac-1c2637970f3c",
+              "description": "",
+              "implementation-status": {
+                "state": "not-applicable"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
